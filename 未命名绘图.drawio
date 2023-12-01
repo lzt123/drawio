@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T07:31:41.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KATCKOnzdG1Xe9IPmsR4" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T09:43:54.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Yut5_6mz5xCKah8ceiG5" version="22.1.5" type="github">
   <diagram name="第 1 页" id="zOvAg67vHPsSjY09FKWu">
-    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1124" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,59 @@
         </mxCell>
         <mxCell id="Lxa-tTLszb_eyGLNpray-15" value="上报线程" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="460" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Lxa-tTLszb_eyGLNpray-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lxa-tTLszb_eyGLNpray-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="731" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-20" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="128" y="546" width="523" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-26" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;30ms采集周期&lt;/span&gt;&lt;br&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;direction=north;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="126.5" y="605" width="526" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-29" value="采集窗口，采集n个包" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="158" y="486" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-32" value="获取网卡发送数据 N，&lt;br&gt;计算采样率 R = N / n&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="345" y="486" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-35" value="根据R和采样数据推算实际流量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="517" y="486" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Lxa-tTLszb_eyGLNpray-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lxa-tTLszb_eyGLNpray-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="741" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-38" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="138" y="755" width="523" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-39" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;30ms采集周期&lt;/span&gt;&lt;br&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;direction=north;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="136.5" y="814" width="526" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-41" value="获取网卡发送数据 N，&lt;br&gt;计算采样率 R = N / n&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="355" y="695" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-42" value="根据R和采样数据推算实际流量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="527" y="695" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="166.25" y="695" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lxa-tTLszb_eyGLNpray-43" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;采集窗口，每隔R个报文采集一个报文&lt;/span&gt;&#xa;&#xa;" style="verticalLabelPosition=top;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=none;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="193.5" y="698.5" width="116.5" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

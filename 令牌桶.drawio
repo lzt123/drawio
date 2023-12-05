@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T08:11:42.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="22.1.5" etag="nyqsPA9v06qVp0xcTE9I" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T10:04:12.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tTmtZEDkeGBJfctEIko4" version="22.1.5" type="github">
   <diagram name="第 1 页" id="MpoewlGlZqTYuMB2Wigz">
-    <mxGraphModel>
+    <mxGraphModel dx="963" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HnNSvJXsedrnfcyC3oHZ-1" target="HnNSvJXsedrnfcyC3oHZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-1" value="单个周期采集报文数" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="314" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop" vertex="1" parent="1">
+          <mxGeometry x="361" y="352" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAJoAAABbCAYAAACLS5wGAAADeElEQVR4nO3d25GjMBCF4WZrAxGZNJFQRAKOBDkSiUjAkbAvy5bLO+PLIHWj5nxVfrU149/iDtW6risBZPZLewBwDggNRCA0EIHQQARCAxEIDUQgNBCB0EDEb+0B5BZjpGVZtIfxMefcv5cJq1EhhJWZVyIq9uWcW0MI2v/KJKp1tXcIalkWqutaexjJzPNc/Mxmch2taRrtISRl4e8xF9qyLEWukz1j4W8yGZpFMUbtIexiLrTS12W+U/rfZXJjoK5rUzObc47medYexi7mZjQiohBC8TPAvXEctYewm8nQnHM0jmPxsTnnKIRAzKw9lN1MLjrvpToycLlc3nof5xz1fb/785i5+B/KPfOhpdI0zVtbfsxMIQSBEZXF5KITjgehgQiEBiLMnyZ0Ns/WIzW3XhGaETFG6rru6Zax5nYfFp1GvIpMG0IzoISzOxAaiEBoIAKhgQiEBiIQGohAaCACoYEIhPamT/ZTHX2flgaE9oT3nuq6pqqq3o4nxkh1XVPTNOS9R3QbtWvkD2ye52S3U2DmdZ7n7ON9ZyyaMKN9oeu6ZNdRxhjJe5/kvUqG0B5475NfrHu5XE4fG0J7kGudapqmLO9bCoT2IFcQZ98oKO4qqG1L7na7/Xd6zNm/zFc0v+rDn2Hrvadpmoq9cyP8pbrN+8Q4jqtzTv2ui5Zemg4XGgKzGdqhFp3vXg0O5TnEVueyLIjMOPUZzdqNjeFr6jNa13XaQwABqqFhcXkeaqENw4DITkTtyEBVVRofe2pKXzURKc1owzBofCwoUpnRMJvpONWMhvWycxLfj5YztBT3/8p5w5Sc9yc7/A9Y+pgXJT5+N45j0nPycz160TmXbIyPSrhmQHRGS/mrY+YszxLIdcv1tm2zvG8p1I8M/MR2i/UcUbRtm+V9LTyUYo/iQtueipILMyefffq+P31o6gfVP5Vrxrm37ee7Xq+7Nwz6vsd+QyowNKmZYRgGYmaKMdI0TR8Ft42xbdvTz2QbhPbisxBKGkWto1l6CNfZFBUalAuhgQiEBiIQGohAaCACoYEIhGZACbt9EJoRR48NoRkRQiBmPmxwxR2Cgq855yiEoD2Mb2FGAxEIDUQgNBCB0EAEQgMRCA1EiO/e2LOf56j7iOC14p4zAGXCohNEIDQQgdBABEIDEQgNRCA0EIHQQARCAxF/AGzFmOOtpjUrAAAAAElFTkSuQmCC;" vertex="1" parent="1">
+          <mxGeometry x="345" y="268" width="91.38" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-15" value="每周期恒定下发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="322" y="322" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HnNSvJXsedrnfcyC3oHZ-17" target="HnNSvJXsedrnfcyC3oHZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HnNSvJXsedrnfcyC3oHZ-17" target="HnNSvJXsedrnfcyC3oHZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;令牌判断&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=0;pointerEvents=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="324" y="496" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-21" value="处理报文，分析五元组，累计流量" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;pointerEvents=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="441" y="506" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="HnNSvJXsedrnfcyC3oHZ-22" target="HnNSvJXsedrnfcyC3oHZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-22" value="取缓冲中的报文" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;pointerEvents=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="159" y="506" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnNSvJXsedrnfcyC3oHZ-26" value="终止当前周期采集" style="whiteSpace=wrap;html=1;rounded=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="603" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
